@@ -64,14 +64,23 @@
         <p>ljl</p>
 <h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>134354653423</p>
 <h3 id="搭建第一步"><a href="#搭建第一步" class="headerlink" title="搭建第一步"></a>搭建第一步</h3><p>1.1、OpenTSDB是什么？主要用途是什么？官方文档这样描述：OpenTSDB is a distributed, scalable Time Series Database (TSDB) written on top of HBase；翻译过来就是，基于Hbase的分布式的，可伸缩的时间序列数据库。主要用途，就是做监控系统；譬如收集大规模集群（包括网络设备、操作系统、应用程序）的监控数据并进行存储，查询。1.2、介绍continue存储到OpenTSDB的数据，是以metric为单位的，metric就是1个监控项，譬如服务器的话，会有CPU使用率、内存使用率这些metric；OpenTSDB使用HBase作为存储，由于有良好的设计，因此对metric的数据存储支持到秒级别；OpenTSDB支持数据永久存储，即保存的数据不会主动删除；并且原始数据会一直保存（有些监控系统会将较久之前的数据聚合之后保存）</p>
-<p>tags: HBase<br>comments: false </p>
 
       
     </div>
     <footer>
       
         
+  
+  <div class="categories">
+    <a href="/categories/opentsdb/">opentsdb</a>
+  </div>
+
         
+  
+  <div class="tags">
+    <a href="/tags/opentsdb/">opentsdb</a>
+  </div>
+
         
   <div class="addthis addthis_toolbox addthis_default_style">
     
@@ -127,8 +136,30 @@
 </div>
 
   
+<div class="widget tag">
+  <h3 class="title">Categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/hexo/">hexo</a><small>0</small></li>
+  
+    <li><a href="/categories/opentsdb/">opentsdb</a><small>1</small></li>
+  
+  </ul>
+</div>
+
 
   
+<div class="widget tag">
+  <h3 class="title">Tags</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/linux/">linux</a><small>0</small></li>
+  
+    <li><a href="/tags/opentsdb/">opentsdb</a><small>1</small></li>
+  
+  </ul>
+</div>
+
 </aside>
     <div class="clearfix"></div>
   </div>
